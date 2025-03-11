@@ -1,12 +1,12 @@
 'use client'
-import Image from 'next/image'
-import React from 'react'
-import PpLight from '../../public/pp-light.jpg'
-import PpDark from '../../public/pp-dark.jpg'
-import { motion } from 'framer-motion'
-import Link from 'next/link'
-import { BsArrowRight, BsGithub, BsLinkedin } from 'react-icons/bs'
-import { HiDownload } from 'react-icons/hi'
+import Image from 'next/image';
+import React from 'react';
+import PpLight from '../../public/pp-light.jpg';
+//import PpDark from '../../public/pp-dark.jpg';
+import { motion } from 'framer-motion';
+import Link from 'next/link';
+import { BsArrowRight, BsGithub, BsLinkedin } from 'react-icons/bs';
+import { HiDownload } from 'react-icons/hi';
 
 export default function Intro() {
   return (
@@ -49,16 +49,18 @@ export default function Intro() {
   initial={{ opacity: 0, y: 100 }}
   animate={{ opacity: 1, y: 0 }}
 >
-  <span>
-    <span className="font-bold">Hello, I'm Samarth Shah.</span> I’m a{" "}
-    <span className="font-bold">full-stack developer</span> who loves turning
-    ideas into <span className="italic">clean, efficient code</span>.<br/> I’m currently
-    looking for a <span className="font-bold">full-time stable role</span> to grow
-    and contribute long-term, but I’m also open to exciting{" "}
-    <span className="font-bold">freelance projects</span> on the side. Let’s connect
-    and discuss how I can help bring your ideas to life, whether it's through a full-time
-    position or a freelance collaboration!
-  </span>
+<span>
+  <span className="font-bold">Hello, I&apos;m Samarth Shah.</span> I&apos;m a{" "}
+  <span className="font-bold">full-stack developer</span> who loves turning
+  ideas into <span className="italic">clean, efficient code</span>.<br /> I&apos;m currently
+  looking for a <span className="font-bold">full-time stable role</span> to grow
+  and contribute long-term, but I&apos;m also open to exciting{" "}
+  <span className="font-bold">freelance projects</span> on the side. Let&apos;s connect
+  and discuss how I can help bring your ideas to life, whether it&apos;s through a full-time
+  position or a freelance collaboration!
+</span>
+
+
 </motion.h1>
 
 <div className='flex flex-col sm:flex-row items-center justify-center gap-2 font-medium'>
