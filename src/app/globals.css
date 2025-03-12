@@ -1,1 +1,34 @@
 @import "tailwindcss";
+
+@keyframes backAndForth {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(10px); /* Move 10px to the right */
+    }
+    100% {
+      transform: translateX(0); /* Return to original position */
+    }
+  }
+  
+  .group:hover .group-hover\:icon-back-and-forth {
+    animation: backAndForth 0.2s ease-in-out infinite;
+  }
+
+  @keyframes moveUpAndDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(10px); /* Move down */
+    }
+    100% {
+      transform: translateY(0); /* Move back to original position */
+    }
+  }
+  
+  .group:hover .group-hover\:move-up-and-down {
+    animation: moveUpAndDown 0.2s ease-in-out infinite;
+  }
+  
