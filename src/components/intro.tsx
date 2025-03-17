@@ -73,19 +73,19 @@ export default function Intro() {
     type: "tween"
   }}
 >
-<Link href="#contact" className="group bg-gray-900 text-white px-7 py-3 flex items-center justify-center gap-2 rounded-full hover:scale-105 hover:bg-gray-500 active:scale-100 transition">
+<Link href="#contact" className="group bg-gray-900 text-white px-7 py-3 flex items-center justify-center gap-2 rounded-full hover:scale-105 active:scale-100 transition">
   Contact me here
   <BsArrowRight className="group-hover:icon-back-and-forth" />
 </Link>
 
 
-<a href="/cv.pdf" target='_blank' rel="noopener noreferrer" className="group bg-white text-grey-900 px-7 py-3 flex items-center justify-center gap-2 rounded-full hover:scale-105 hover:bg-gray-500 active:scale-100 transition">
+<a href="/cv.pdf" target='_blank' rel="noopener noreferrer" className="group bg-white text-grey-900 px-7 py-3 flex items-center justify-center gap-2 rounded-full hover:scale-105  active:scale-100 transition border border-black/10">
   Download CV
   <HiDownload className="group-hover:move-up-and-down transition-all" />
 </a>
 
-    <a href=""className='group bg-white text-grey-700 p-4 flex items-center justify-center gap-2 rounded-full hover:scale-105 hover:bg-gray-500 active:scale-100 transition'><BsLinkedin className="group-hover:rotate-360 transition duration-1000"/></a>
-    <a href=""className='group bg-white text-grey-700 p-4 flex items-center justify-center gap-2 rounded-full hover:scale-105 hover:bg-gray-500 active:scale-100 transition'><BsGithub className="group-hover:rotate-360 transition duration-1000"/></a>
+    <a href="https://www.linkedin.com/in/thesamarthshah/" target='_blank' className='group bg-white text-grey-700 p-4 flex items-center justify-center gap-2 rounded-full hover:scale-105 active:scale-100 transition border border-black/10'><BsLinkedin className="group-hover:rotate-360 transition duration-1000"/></a>
+    <a href="https://github.com/TheSamarthShah" target='_blank' className='group bg-white text-grey-700 p-4 flex items-center justify-center gap-2 rounded-full hover:scale-105 active:scale-100 transition border border-black/10'><BsGithub className="group-hover:rotate-360 transition duration-1000"/></a>
 </motion.div>
 
     </section>
