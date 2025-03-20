@@ -79,7 +79,7 @@ export default function Intro() {
 </Link>
 
 
-<a href="/cv.pdf" target='_blank' rel="noopener noreferrer" className="group bg-white text-grey-900 px-7 py-3 flex items-center justify-center gap-2 rounded-full hover:scale-105  active:scale-100 transition border border-black/10">
+<a href="/SamarthResueme.pdf" target='_blank' rel="noopener noreferrer" className="group bg-white text-grey-900 px-7 py-3 flex items-center justify-center gap-2 rounded-full hover:scale-105  active:scale-100 transition border border-black/10">
   Download CV
   <HiDownload className="group-hover:move-up-and-down transition-all" />
 </a>
