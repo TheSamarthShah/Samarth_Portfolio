@@ -58,24 +58,75 @@ export const experiencesData = [
   },
 ] as const;
 
-export const projectsData = [
+export const featuredProjects = [
   {
-    title: "CorpComment",
+    title: "Virtual Painter",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Developed a Virtual Painter tool where users can try different color combinations on their own room photo. Built using the MERN stack and jQuery, it’s now evolving with Machine Learning to become the first of its kind.",
+    tags: ["MongoDB", "Express", "React", "Node.js", "jQuery", "Machine Learning"],
   },
   {
-    title: "rmtDev",
+    title: "Gantt-Chart Editor",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "An advanced task and project scheduling tool built on the MVC architecture, featuring an interactive Gantt chart with rich functionalities.",
+    tags: [".NET MVC", "JavaScript", "SQL"],
   },
   {
-    title: "Word Analytics",
+    title: "Management System Framework",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Building a reusable framework tailored for large-scale organizational systems using AngularJS and .NET WebAPI.",
+    tags: ["AngularJS", ".NET WebAPI"],
+  },
+  {
+    title: "Ceedmy E-learning Platform",
+    description:
+      "Crafted a full-featured website for the Ceedmy Institute using the MERN stack to deliver seamless educational experiences.",
+    tags: ["MongoDB", "Express", "React", "Node.js"],
+  },
+  {
+    title: "Rooming",
+    description:
+      "A MERN-based platform helping students and professionals find ideal roommates or flatmates based on preferences.",
+    tags: ["MongoDB", "Express", "React", "Node.js"],
+  },
+  {
+    title: "RentalHub",
+    description:
+      "Designed the front-end for a car rental platform enabling users to browse and rent vehicles with ease.",
+    tags: ["React", "JavaScript", "CSS"],
+  },
+  {
+    title: "Public Chatting App",
+    description:
+      "An open discussion chat platform built to explore the T3 Stack, enabling users to chat publicly and explore user-specific message histories.",
+    tags: ["Next.js", "tRPC", "Tailwind", "TypeScript", "Prisma"],
+  },
+] as const;
+
+export const supportingProjects = [
+  {
+    title: "Smart Bench (IoT Project)",
+    description:
+      "An IoT-integrated student bench featuring facial recognition attendance, sleep detection, and real-time email alerts for monitoring exams.",
+    tags: ["IoT", "OpenCV", "Python", "Raspberry Pi"],
+  },
+  {
+    title: "Target Distance Measurement",
+    description:
+      "A microcontroller-based project using ultrasonic sensors to measure the distance of objects—simple yet precise.",
+    tags: ["Arduino", "Ultrasonic Sensor", "Embedded"],
+  },
+  {
+    title: "Temperature & Humidity Monitor",
+    description:
+      "Built using the DHT11 sensor, this project provides real-time temperature and humidity readings with digital display.",
+    tags: ["DHT11", "Arduino", "Sensor", "Embedded"],
+  },
+  {
+    title: "Ni-Rog Clinic & Employee System",
+    description:
+      "Developed a basic clinic and employee management system using the MVC architecture as part of my learning journey.",
+    tags: [".NET MVC", "SQL"],
   },
 ] as const;
 
