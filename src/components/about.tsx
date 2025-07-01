@@ -37,7 +37,7 @@ export default function About() {
   <p>
     I thrive on solving real-world problems with{" "}
     <span className="font-medium">technology that delivers</span>—no fluff, just results.
-    <span className="italic"> Let's connect</span> and build something amazing together.{" "}
+    <span className="italic">Let&apos;s connect</span> and build something amazing together.
     <span className="text-xl">🚀</span>
   </p>
 </motion.section>
